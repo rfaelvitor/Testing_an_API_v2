@@ -9,5 +9,9 @@ async function call_api() {
 }
 
 call_api()
-// location.replace(url_api)
+// Assim que apertar o botão... (onclick="function" para executar uma function document.getElementById???)
+//... Refresh a página com a nova URL para gerar a imagem solicitada... (location.replace(url_api))
+//Observação: a URL precisa ter um parâmtetro/variável para concatenar o input com o restante e atualizar a página com a imagem correta.
+
+
 
