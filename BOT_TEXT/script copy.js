@@ -1,18 +1,16 @@
-
 async function call_api() {
     const search_term = document.getElementById("search_term").value
-    const url_api = "https://image.pollinations.ai/prompt/"+search_term//document.getElementById("text")
+    const url_api = "https://text.pollinations.ai/"+search_term//document.getElementById("text")
     if (!search_term) {
         alert("O campo de texto não pode ser vazio. Escreva algo.")
         return
     }
     
     try {
-        document.getElementById("img").src = ""
         const response = await fetch(url_api);
-        const data = await response.blob();
+        const data = await response.text();
         console.log(data);
-        document.getElementById("img").src = URL.createObjectURL(data);
+        document.getElementById("bot").innerText = data;
     }
     catch (error) {
         console.log("Something is wrong!")
