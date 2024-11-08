@@ -14,4 +14,16 @@ call_api()
 //Observação: a URL precisa ter um parâmtetro/variável para concatenar o input com o restante e atualizar a página com a imagem correta.
 
 
+const text1 = document.getElementById("teste");
+const button1 = document.getElementById("button");
+const output1 = document.getElementById("title");
+
+
+function uptade_img() {
+    output1.innerHTML = text1.value;
+}
+
+button1.addEventListener("click",uptade_img);
+
+
 
