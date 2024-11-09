@@ -1,6 +1,6 @@
 async function call_api() {
     const search_term = document.getElementById("search_term").value
-    const url_api = "https://image.pollinations.ai/prompt/"+search_term//document.getElementById("text")
+    const url_api = "https://image.pollinations.ai/prompt/"+search_term
     if (!search_term) {
         alert("O campo de texto não pode ser vazio. Escreva algo.")
         return
