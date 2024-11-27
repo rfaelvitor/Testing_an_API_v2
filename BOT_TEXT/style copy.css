@@ -29,7 +29,7 @@ body {
     font-size: 1.2rem;
 }
 
-#botao {
+#button {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -41,7 +41,7 @@ body {
     transition: background-color 0.2s ease;
 }
 
-#botao:hover {
+#button:hover {
     background-color: #409144;
     transform: scale(1.2);
 }
