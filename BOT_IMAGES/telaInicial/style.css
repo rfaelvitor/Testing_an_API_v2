@@ -1,1 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Cor de fundo e estilo geral */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(53, 0, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título e subtítulo */
+header h1 {
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Estilo da imagem da coruja */
+.coruja {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Botões de opção */
+.opções {
+    margin-top: 30px;
+}
+
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.botao:hover {
+    background-color: #409144;
+    transform: scale(1.2);
+}
