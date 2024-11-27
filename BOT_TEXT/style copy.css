@@ -47,16 +47,20 @@ body {
 }
 
 #reset {
-    height: 10vh;
-    width: 25vw;
-    border: 2px solid black;
     background-color: rgb(104, 0, 0);
-    font-size: 1.5rem;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 #reset:hover {
-    text-decoration: underline;
-    cursor: pointer;
+    background-color: #409144;
+    transform: scale(1.2);
 }
 
 
