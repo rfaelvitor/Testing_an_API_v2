@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVI - A Coruja Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3eroymkWg_XcpwXSDvV6Tmcb3l7kdC2kwgw&s" alt="EVI, a Coruja Inteligente" class="coruja">
+            <h1>Seja Bem-vindo!</h1>
+            <p>Meu nome é EVI, sou uma coruja inteligente. Posso gerar imagens e texto, clique abaixo para prosseguir: </p>
+        </header>
+<br>
+        <div class="options">
+            <a href="https://rfaelvitor.github.io/Testing_an_API_v2/BOT_IMAGES/index.html?"><button class="botao" id="text0">Prosseguir</button></a>
+        </div>
+    </div>
+</body>
+</html>
